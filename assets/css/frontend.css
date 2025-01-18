@@ -1,0 +1,525 @@
+/**
+* Anchor Plugin - Frontend Styles
+*/
+
+/* Base */
+
+.anchor-page {
+	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	line-height: 1.5;
+	color: #333;
+	padding: 40px 20px;
+}
+
+.anchor-container {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.anchor-form-wrapper {
+	max-width: 400px;
+	margin: 0 auto;
+}
+
+/* Typography */
+
+.anchor-page h1 {
+	font-size: 24px;
+	font-weight: 600;
+	margin: 0 0 24px;
+	color: #111;
+}
+
+.anchor-page h2 {
+	font-size: 18px;
+	font-weight: 600;
+	margin: 0 0 16px;
+	color: #111;
+}
+
+.anchor-page h3 {
+	font-size: 14px;
+	font-weight: 600;
+	margin: 0 0 8px;
+	color: #666;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+}
+
+.anchor-description {
+	color: #666;
+	margin-bottom: 24px;
+}
+
+/* Form Styles */
+
+.anchor-form {
+	margin-bottom: 24px;
+}
+
+.anchor-field {
+	margin-bottom: 20px;
+}
+
+.anchor-field label {
+	display: block;
+	font-size: 14px;
+	font-weight: 500;
+	margin-bottom: 6px;
+	color: #333;
+}
+
+.anchor-field input[type="text"],
+.anchor-field input[type="email"],
+.anchor-field input[type="password"] {
+	width: 100%;
+	padding: 10px 12px;
+	font-size: 16px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	background: #fff;
+	transition: border-color 0.2s;
+	box-sizing: border-box;
+}
+
+.anchor-field input:focus {
+	outline: none;
+	border-color: #333;
+}
+
+.anchor-field input:disabled {
+	background: #f5f5f5;
+	color: #999;
+	cursor: not-allowed;
+}
+
+.anchor-hint {
+	display: block;
+	font-size: 12px;
+	color: #999;
+	margin-top: 4px;
+}
+
+.anchor-hint.anchor-warning {
+	color: #c00;
+}
+
+/* Checkbox */
+
+.anchor-checkbox label {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	font-weight: normal;
+	cursor: pointer;
+}
+
+.anchor-checkbox input[type="checkbox"] {
+	width: 16px;
+	height: 16px;
+	margin: 0;
+}
+
+/* Button */
+
+.anchor-button {
+	display: inline-block;
+	width: 100%;
+	padding: 12px 24px;
+	font-size: 16px;
+	font-weight: 500;
+	color: #fff;
+	background: #333;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background-color 0.2s;
+	text-align: center;
+	text-decoration: none;
+}
+
+.anchor-button:hover {
+	background: #111;
+}
+
+.anchor-button:active {
+	background: #000;
+}
+
+/* Messages */
+
+.anchor-message {
+	padding: 16px;
+	border-radius: 4px;
+	margin-bottom: 24px;
+}
+
+.anchor-error {
+	background: #fef2f2;
+	border: 1px solid #fecaca;
+	color: #b91c1c;
+}
+
+.anchor-success {
+	background: #f0fdf4;
+	border: 1px solid #bbf7d0;
+	color: #166534;
+}
+
+.anchor-message p {
+	margin: 0;
+}
+
+.anchor-message p + p {
+	margin-top: 8px;
+}
+
+/* Links */
+
+.anchor-links {
+	text-align: center;
+	margin-bottom: 24px;
+}
+
+.anchor-links a {
+	color: #666;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.anchor-links a:hover {
+	color: #333;
+	text-decoration: underline;
+}
+
+.anchor-alt-action {
+	text-align: center;
+	padding-top: 24px;
+	border-top: 1px solid #eee;
+	color: #666;
+	font-size: 14px;
+}
+
+.anchor-alt-action a {
+	color: #333;
+	font-weight: 500;
+	text-decoration: none;
+}
+
+.anchor-alt-action a:hover {
+	text-decoration: underline;
+}
+
+/* Account Layout - Sidebar */
+
+.anchor-account-layout {
+	display: grid;
+	grid-template-columns: 200px 1fr;
+	gap: 48px;
+	min-height: 400px;
+}
+
+.anchor-account-sidebar {
+	border-right: 1px solid #eee;
+	padding-right: 24px;
+}
+
+.anchor-account-nav {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+}
+
+.anchor-account-nav a {
+	display: block;
+	padding: 10px 16px;
+	color: #666;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 500;
+	border-radius: 4px;
+	transition: background-color 0.2s, color 0.2s;
+}
+
+.anchor-account-nav a:hover {
+	background: #f5f5f5;
+	color: #333;
+}
+
+.anchor-account-nav a.active {
+	background: #f5f5f5;
+	color: #111;
+	font-weight: 600;
+}
+
+.anchor-account-nav .anchor-nav-signout {
+	margin-top: 24px;
+	padding-top: 24px;
+	border-top: 1px solid #eee;
+}
+
+.anchor-account-nav .anchor-nav-signout a {
+	color: #999;
+}
+
+.anchor-account-nav .anchor-nav-signout a:hover {
+	color: #c00;
+	background: #fef2f2;
+}
+
+.anchor-account-main {
+	max-width: 600px;
+}
+
+.anchor-account-main h1 {
+	font-size: 20px;
+	margin-bottom: 8px;
+}
+
+.anchor-account-main .anchor-page-description {
+	color: #666;
+	margin-bottom: 32px;
+	font-size: 14px;
+}
+
+/* Profile Header */
+
+.anchor-profile-header {
+	display: flex;
+	align-items: center;
+	gap: 16px;
+	margin-bottom: 24px;
+	padding-bottom: 24px;
+	border-bottom: 1px solid #eee;
+}
+
+.anchor-avatar img {
+	width: 48px;
+	height: 48px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+
+.anchor-profile-info h2 {
+	font-size: 16px;
+	margin: 0 0 2px;
+}
+
+.anchor-username {
+	color: #666;
+	margin: 0;
+	font-size: 13px;
+}
+
+.anchor-member-since {
+	color: #999;
+	font-size: 14px;
+	margin: 0;
+}
+
+/* Legacy Profile Navigation - TODO Remove */
+
+.anchor-profile-nav {
+	display: flex;
+	gap: 4px;
+	margin-bottom: 32px;
+	border-bottom: 1px solid #eee;
+	padding-bottom: 16px;
+}
+
+.anchor-profile-nav a {
+	padding: 8px 16px;
+	color: #666;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 500;
+	border-radius: 4px;
+	transition: background-color 0.2s, color 0.2s;
+}
+
+.anchor-profile-nav a:hover {
+	background: #f5f5f5;
+	color: #333;
+}
+
+.anchor-profile-nav a.active {
+	background: #333;
+	color: #fff;
+}
+
+/* Placeholder Content */
+
+.anchor-stub {
+	background: #f9f9f9;
+	border: 1px dashed #ddd;
+	border-radius: 8px;
+	padding: 40px;
+	text-align: center;
+	color: #999;
+}
+
+.anchor-stub p {
+	margin: 0;
+}
+
+/* Dashboard Grid */
+
+.anchor-dashboard-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	gap: 24px;
+}
+
+.anchor-dashboard-card {
+	background: #f9f9f9;
+	padding: 20px;
+	border-radius: 8px;
+}
+
+.anchor-dashboard-card h3 {
+	margin-bottom: 12px;
+}
+
+.anchor-dashboard-card p {
+	margin: 0;
+	font-size: 16px;
+}
+
+/* Status Badges */
+
+.anchor-status {
+	display: inline-block;
+	padding: 4px 12px;
+	border-radius: 20px;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.anchor-status-active {
+	background: #d1fae5;
+	color: #065f46;
+}
+
+.anchor-status-pending {
+	background: #fef3c7;
+	color: #92400e;
+}
+
+.anchor-status-suspended {
+	background: #fee2e2;
+	color: #991b1b;
+}
+
+.anchor-verified {
+	display: inline-block;
+	font-size: 12px;
+	color: #059669;
+	margin-top: 4px;
+}
+
+.anchor-unverified {
+	display: inline-block;
+	font-size: 12px;
+	color: #dc2626;
+	margin-top: 4px;
+}
+
+/* Settings Sections */
+
+.anchor-settings-section {
+	margin-bottom: 48px;
+	padding-bottom: 48px;
+	border-bottom: 1px solid #eee;
+}
+
+.anchor-settings-section:last-child {
+	border-bottom: none;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.anchor-settings-section .anchor-form {
+	max-width: 500px;
+}
+
+.anchor-settings-section .anchor-button {
+	width: auto;
+}
+
+/* Public Profile */
+
+.anchor-profile-header.anchor-public {
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+.anchor-public-profile-content {
+	text-align: center;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+	.anchor-account-layout {
+		grid-template-columns: 1fr;
+		gap: 24px;
+	}
+
+	.anchor-account-sidebar {
+		border-right: none;
+		border-bottom: 1px solid #eee;
+		padding-right: 0;
+		padding-bottom: 24px;
+	}
+
+	.anchor-account-nav {
+		flex-direction: row;
+		flex-wrap: wrap;
+		gap: 8px;
+	}
+
+	.anchor-account-nav .anchor-nav-signout {
+		margin-top: 0;
+		padding-top: 0;
+		border-top: none;
+		margin-left: auto;
+	}
+
+	.anchor-profile-header {
+		flex-direction: row;
+	}
+}
+
+@media (max-width: 600px) {
+	.anchor-page {
+		padding: 24px 16px;
+	}
+
+	.anchor-profile-header {
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.anchor-avatar img {
+		width: 64px;
+		height: 64px;
+	}
+
+	.anchor-profile-nav {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.anchor-dashboard-grid {
+		grid-template-columns: 1fr;
+	}
+
+	.anchor-account-nav {
+		flex-direction: column;
+	}
+
+	.anchor-account-nav .anchor-nav-signout {
+		margin-left: 0;
+	}
+}
