@@ -1,10 +1,12 @@
 # Anchor
 
-You publish great content, and your readers value it. But you're reaching them through platforms you don't control—social media feeds, search algorithms, email services. **Anchor** changes that.
+You create strong journalism. Your audience shows up for it. But most of the relationship lives on borrowed ground: social feeds, search rankings, email platforms. **Anchor** gives you control back.
 
-Anchor is a membership plugin for news and content publishers. Decide which stories are free, which require registration, and which need a paid subscription. Set article limits to encourage readers to create accounts, like *"Read 5 free articles, then register."* Own your audience data and build a direct relationship with people who value your work, no middleman platforms required.
+Anchor is a membership plugin built for newsrooms and content publishers. You decide what’s open, what requires registration, and what sits behind a paid subscription. Add limits like *"Read 5 free articles, then create an account"* to turn casual readers into known users.
 
-Anchor is designed to start simple and scale with your business—from basic registration walls to full subscription management.
+Instead of relying on third-party platforms, you build direct relationships and own your audience data.
+
+Start with a simple registration wall. Grow into full subscription management when you’re ready. Anchor scales with your publishing business, not against it.
 
 ## Key Features
 
@@ -12,7 +14,7 @@ Anchor is designed to start simple and scale with your business—from basic reg
 
 - **Smart Metering** - Offer free article limits (daily, weekly, or monthly) that encourage visitors to register or subscribe
 
-- **First-Party Data** - Build your own audience database with complete ownership—no dependency on external platforms
+- **First-Party Data** - Build your own audience database with complete ownership - no dependency on external platforms
 
 - **Member Management** - Simple dashboard to view, manage, and understand your registered members and subscribers
 
